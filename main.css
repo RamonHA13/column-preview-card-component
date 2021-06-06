@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    color: white;
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 89%;
+}
+#Main{
+    display: flex;
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+#one{
+    box-sizing: border-box;
+    background-color:hsl(31, 77%, 52%) ;
+    flex-grow: 1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#two{
+    background-color: hsl(184, 100%, 22%);
+    flex-grow: 1;
+}
+
+#three{
+    box-sizing: border-box;
+    background-color: hsl(179, 100%, 13%);
+    flex-grow: 1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+header{
+    box-sizing: border-box;
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+section{
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgba(256, 256,256, 0.5);
+    padding-left: 50px;
+}
+
+footer{
+    box-sizing: border-box;
+    padding: 50px;
+    padding-top: 80px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.bottom{
+    background-color: white;
+    box-sizing: border-box;
+    border: solid white 3px;
+    border-radius: 50px;
+    margin-right: 50%;
+}
+
+p{
+    box-sizing: border-box;
+    padding-left: 20%;
+}
+#one .bottom{
+    color:hsl(31, 77%, 52%);
+}
+#two .bottom{
+    color: hsl(184, 100%, 22%);
+}
+#three .bottom{
+    color:hsl(179, 100%, 13%);
+    
+}
+#one .bottom:hover{
+    color: white;
+    cursor: pointer;
+    background-color:transparent;
+    
+}
+#two .bottom:hover{
+    color: white;
+    cursor: pointer;
+    background-color:transparent;
+    
+}
+#three .bottom:hover{
+    color: white;
+    cursor: pointer;
+    background-color:transparent;
+    
+}
